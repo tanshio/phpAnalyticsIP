@@ -1,4 +1,4 @@
 phpAnalyticsIP
 ==============
 
-IP and Cookie set to Google Analytics 
+Set IP and Cookie to Google Analytics.
