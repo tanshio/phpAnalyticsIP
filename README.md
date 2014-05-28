@@ -8,12 +8,12 @@ original:<a href="http://lfll.blog73.fc2.com/blog-entry-258.html" target="_blank
 Original is great but it does not support cross-domain.
 
 ## Create custom dimension
-![set up custom dimension](//raw.github.com/wiki/tanshio/phpAnalyticsIP/img/custom_dimension.png)
+![set up custom dimension](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/custom_dimension.png)
 
-![custom dimention list](//raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Analytics.png)
+![custom dimention list](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Analytics.png)
 
 ## Set up 
-![code](//raw.github.com/wiki/tanshio/phpAnalyticsIP/img/analytics.png)
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/analytics.png)
 
 If  the index of IP Address is 6
 ```
