@@ -1,0 +1,3 @@
+<?php $S=hash('md5',time().ip2long(b()));$D=date('Y/m/d H:i:s');$X=$_REQUEST["s"]?1:0;if(!$_COOKIE['setAnalytics'])setcookie('setAnalytics',a(),time()+5256000,'/',$_SERVER['SERVER_NAME'],$X);function a(){global $S;$c=!$_COOKIE['setAnalytics']?$S:htmlentities($_COOKIE['setAnalytics'],ENT_QUOTES,"UTF-8");return $c;}function b(){return $_SERVER['REMOTE_ADDR'];}?>
+var setAnalytics={getCookie:function(){return '<?=a();?>'},getIP:function(){return '<?=b();?>'},getAccessTime:function(){return '<?=$D;?>'}};
+setAnalytics.data={setCookie : setAnalytics.getCookie(),setIP : setAnalytics.getIP(),setAccessTime : setAnalytics.getAccessTime(),event : "setAnalytics_event"};dataLayer.push(setAnalytics.data);
