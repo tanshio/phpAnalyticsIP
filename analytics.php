@@ -15,7 +15,7 @@ function cookie_check(){
 	if(!$_COOKIE[ 'setAnalytics' ]){
 		$cookie_set = $SET;
 	}else{
-		$cookie_set = htmlspecialchars($_COOKIE[ 'setAnalytics' ]);
+		$cookie_set = htmlentities($_COOKIE[ 'setAnalytics' ],ENT_QUOTES,"UTF-8");
 	}
 
 	return $cookie_set;
