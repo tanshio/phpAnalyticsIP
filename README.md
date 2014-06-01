@@ -93,4 +93,4 @@ date.timezone = Asia/Tokyo
 - analytics_cookie.tag.js
 - analytics_cookie.tag.min.js
 
-setIP() don't support.
+setIP() and secure don't support.
