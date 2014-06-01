@@ -2,17 +2,17 @@
 
 $SET    = hash( 'md5' ,time() . ip2long(ip_check()));
 $DATE   = date("Y/m/d H:i:s");
-$SECURE = $_REQUEST["s"]?1:0;
+$SECURE = isset($_REQUEST["s"])?1:0;
 
-if(!$_COOKIE[ 'setAnalytics' ]){
-	setcookie( 'setAnalytics', cookie_check() , time() +5256000 , '/' , $_SERVER['SERVER_NAME'] , $SECURE );
+if(!isset($_COOKIE[ 'setAnalytics' ]){
+	setcookie( 'setAnalytics', cookie_check() , time() +31536000000 , '/' , $_SERVER['SERVER_NAME'] , $SECURE );
 }
 
 function cookie_check(){
 
 	global $SET;
 
-	if(!$_COOKIE[ 'setAnalytics' ]){
+	if(!isset($_COOKIE[ 'setAnalytics' ])){
 		$cookie_set = $SET;
 	}else{
 		$cookie_set = htmlentities($_COOKIE[ 'setAnalytics' ],ENT_QUOTES,"UTF-8");
