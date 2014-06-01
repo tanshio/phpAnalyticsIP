@@ -41,6 +41,56 @@ Secure
 <script type="text/javascript" src="./analytics.php?s=X"></script>
 ```
 
+## Google Tag Manager
+
+
+
+### Macro
+
+- setIP
+- setCookie
+- setAccessTime
+
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Tag_Manager_macro.png)
+
+- setAnalytics_event
+
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Tag_Manager_event.png)
+
+
+
+
+
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Tag_Manager_ok.png)
+
+### Custom Dimension
+
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Tag_Manager.png)
+
+### Rule
+
+![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Tag_Manager_custom.png)
+
 ## Support
 
-analytics.min.php support is more than PHP5.4
+### PHP
+analytics.min.php and  analytics.tag.min.php support is more than PHP5.4
+
+If an error message displays.
+```
+date(): It is not safe to rely on the system's timezone settings.
+```
+
+php.ini add 
+```
+date.timezone = Asia/Tokyo
+```
+
+### javascript
+
+- analytics_cookie.js
+- analytics_cookie.min.js
+- analytics_cookie.tag.js
+- analytics_cookie.tag.min.js
+
+setIP() don't support.
