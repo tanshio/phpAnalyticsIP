@@ -5,7 +5,7 @@ $DATE   = date("Y/m/d H:i:s");
 $SECURE = isset($_REQUEST["s"])?1:0;
 
 if(isset(!$_COOKIE[ 'setAnalytics' ]){
-	setcookie( 'setAnalytics', cookie_check() , time() +31536000000 , '/' , $_SERVER['SERVER_NAME'] , $SECURE );
+	setcookie( 'setAnalytics', cookie_check() , time()+60*60*24*365, '/' , $_SERVER['SERVER_NAME'] , $SECURE );
 }
 
 function cookie_check(){

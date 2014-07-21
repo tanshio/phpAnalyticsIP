@@ -94,3 +94,8 @@ date.timezone = Asia/Tokyo
 - analytics_cookie.tag.min.js
 
 setIP() and secure don't support.
+
+## Changelog
+
+July 22,2014
+Change expire settings.
