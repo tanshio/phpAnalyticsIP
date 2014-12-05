@@ -12,7 +12,7 @@ Original is great but it does not support cross-domain.
 
 ![custom dimention list](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/Google_Analytics.png)
 
-## Set up 
+## Set up
 ![code](https://raw.github.com/wiki/tanshio/phpAnalyticsIP/img/analytics.png)
 
 If  the index of IP Address is 6
@@ -81,7 +81,7 @@ If an error message displays.
 date(): It is not safe to rely on the system's timezone settings.
 ```
 
-php.ini add 
+php.ini add
 ```
 date.timezone = Asia/Tokyo
 ```
@@ -99,3 +99,6 @@ setIP() and secure don't support.
 
 July 22,2014
 Change expire settings.
+
+December 5,2014
+Typo modified.
